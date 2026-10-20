@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying DiffLTM manuscript when using this software."
+title: "DiffLTM: Continuous Diffusions Large Tabular Models for Conditional Generation"
+type: software
+version: 0.1.0
+authors:
+  - given-names: Alankrita
+    family-names: Bhatt
+  - given-names: Mukur
+    family-names: Gupta
+  - given-names: Andrea
+    family-names: Montanari
+  - given-names: Pulkit
+    family-names: Tandon
+license: MIT
+preferred-citation:
+  type: generic
+  title: "DiffLTM: Continuous Diffusions Large Tabular Models for Conditional Generation"
+  authors:
+    - given-names: Alankrita
+      family-names: Bhatt
+    - given-names: Mukur
+      family-names: Gupta
+    - given-names: Andrea
+      family-names: Montanari
+    - given-names: Pulkit
+      family-names: Tandon
+  year: 2026

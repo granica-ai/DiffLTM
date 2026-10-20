@@ -1,0 +1,15 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Packaging output
+*.egg-info/
+build/
+dist/
+
+# Downloaded data, experiment output and local checkouts
+/data/
+outputs/

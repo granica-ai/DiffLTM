@@ -1,0 +1,13 @@
+# @package _global_
+model:
+  backbone: adaln
+  conditional: true
+  depth: 1
+  embedding_dim: 4
+  linear: true
+  ranges: true
+  width: 256
+training:
+  batch_size: 4096
+  epochs: 1000
+  val_every: 20

@@ -1,0 +1,10 @@
+representation: onehot
+objective: representation_mse
+embedding_dim: 16
+backbone: mlp
+width: 1024
+depth: 5
+conditional: false
+ranges: false
+linear: false
+condition_dropout: 0.15

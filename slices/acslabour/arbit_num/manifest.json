@@ -1,0 +1,709 @@
+{
+  "dataset": {
+    "name": "acslabour",
+    "version": "v1",
+    "source": {
+      "reader": "census-person-zip/local-v1",
+      "horizon": "5-Year",
+      "years": [
+        2018
+      ],
+      "states": [
+        "AK",
+        "AL",
+        "AR",
+        "AZ",
+        "CA",
+        "CO",
+        "CT",
+        "DC",
+        "DE",
+        "FL",
+        "GA",
+        "HI",
+        "IA",
+        "ID",
+        "IL",
+        "IN",
+        "KS",
+        "KY",
+        "LA",
+        "MA",
+        "MD",
+        "ME",
+        "MI",
+        "MN",
+        "MO",
+        "MS",
+        "MT",
+        "NC",
+        "ND",
+        "NE",
+        "NH",
+        "NJ",
+        "NM",
+        "NV",
+        "NY",
+        "OH",
+        "OK",
+        "OR",
+        "PA",
+        "PR",
+        "RI",
+        "SC",
+        "SD",
+        "TN",
+        "TX",
+        "UT",
+        "VA",
+        "VT",
+        "WA",
+        "WI",
+        "WV",
+        "WY"
+      ],
+      "archives": {
+        "AK": {
+          "archive": "csv_pak.zip",
+          "sha256": "d393de51b564967ed116fdc573577ee775569e759bc51e727c395d31e74fb621",
+          "members": [
+            "psam_p02.csv"
+          ],
+          "raw_rows": 33678,
+          "eligible_rows": 13280,
+          "state_fips": 2
+        },
+        "AL": {
+          "archive": "csv_pal.zip",
+          "sha256": "954525f3f24eb143028e340f34f9baaf20b6e58b687cf802536019a6a7ac16a3",
+          "members": [
+            "psam_p01.csv"
+          ],
+          "raw_rows": 238350,
+          "eligible_rows": 92777,
+          "state_fips": 1
+        },
+        "AR": {
+          "archive": "csv_par.zip",
+          "sha256": "a4de5d924305a842102f44a0cc60583eb698521fa0d514d7fe0c885af61f51a7",
+          "members": [
+            "psam_p05.csv"
+          ],
+          "raw_rows": 149097,
+          "eligible_rows": 57529,
+          "state_fips": 5
+        },
+        "AZ": {
+          "archive": "csv_paz.zip",
+          "sha256": "b2068164aed651e7a61ebbe2a217a497a1d1a2096631b9112cd65208578408ca",
+          "members": [
+            "psam_p04.csv"
+          ],
+          "raw_rows": 340442,
+          "eligible_rows": 133884,
+          "state_fips": 4
+        },
+        "CA": {
+          "archive": "csv_pca.zip",
+          "sha256": "0b55d01ab0a9926892c101704b31d2224f9ec7714fecaca5b7f4065562acb111",
+          "members": [
+            "psam_p06.csv"
+          ],
+          "raw_rows": 1879923,
+          "eligible_rows": 794124,
+          "state_fips": 6
+        },
+        "CO": {
+          "archive": "csv_pco.zip",
+          "sha256": "1377e7cfc69df6ebd41d507a40df2f8f859aecf9009172ca4f1e2581bf62c7f8",
+          "members": [
+            "psam_p08.csv"
+          ],
+          "raw_rows": 272598,
+          "eligible_rows": 127388,
+          "state_fips": 8
+        },
+        "CT": {
+          "archive": "csv_pct.zip",
+          "sha256": "d49e81b0f3e4f0c96c184c1d2dec8bf80400b81a543f836f8871b2b584ba44ba",
+          "members": [
+            "psam_p09.csv"
+          ],
+          "raw_rows": 179694,
+          "eligible_rows": 83622,
+          "state_fips": 9
+        },
+        "DC": {
+          "archive": "csv_pdc.zip",
+          "sha256": "3af1c9cf20642b070153915ffe2a8bf0b5c16570332d74c978b0036a599d9afd",
+          "members": [
+            "psam_p11.csv"
+          ],
+          "raw_rows": 32887,
+          "eligible_rows": 17443,
+          "state_fips": 11
+        },
+        "DE": {
+          "archive": "csv_pde.zip",
+          "sha256": "92d3404a233d9452c05639197cfe2fd19c0a73d9e97f3c6f7e4511111e22c9da",
+          "members": [
+            "psam_p10.csv"
+          ],
+          "raw_rows": 44970,
+          "eligible_rows": 19834,
+          "state_fips": 10
+        },
+        "FL": {
+          "archive": "csv_pfl.zip",
+          "sha256": "5c0c40ba26cd02fe062af30b06be053568ad3450275c6830f1e8d0b9ca280576",
+          "members": [
+            "psam_p12.csv"
+          ],
+          "raw_rows": 985853,
+          "eligible_rows": 405422,
+          "state_fips": 12
+        },
+        "GA": {
+          "archive": "csv_pga.zip",
+          "sha256": "ac647ce9b33ad108abcf7a26b3208d31f3c5bcf95113b483c90279a5a01aa81f",
+          "members": [
+            "psam_p13.csv"
+          ],
+          "raw_rows": 494091,
+          "eligible_rows": 207627,
+          "state_fips": 13
+        },
+        "HI": {
+          "archive": "csv_phi.zip",
+          "sha256": "795fac062607b686759227748ab5d63b1431d76512058505cc14577a0e781573",
+          "members": [
+            "psam_p15.csv"
+          ],
+          "raw_rows": 71526,
+          "eligible_rows": 30757,
+          "state_fips": 15
+        },
+        "IA": {
+          "archive": "csv_pia.zip",
+          "sha256": "9576a7f66debb25c55ad41f62ec01709e81a82879258e246f60101af79e375e5",
+          "members": [
+            "psam_p19.csv"
+          ],
+          "raw_rows": 160643,
+          "eligible_rows": 74142,
+          "state_fips": 19
+        },
+        "ID": {
+          "archive": "csv_pid.zip",
+          "sha256": "0bac283d8cd5dd4f6c5000a0e154515872660a75aaa9b6d5add37e5065f4818c",
+          "members": [
+            "psam_p16.csv"
+          ],
+          "raw_rows": 80529,
+          "eligible_rows": 32586,
+          "state_fips": 16
+        },
+        "IL": {
+          "archive": "csv_pil.zip",
+          "sha256": "d52dd367941d55e5dc72476546a47f9252c9353d0fae4069d65bf72f9b96288e",
+          "members": [
+            "psam_p17.csv"
+          ],
+          "raw_rows": 632564,
+          "eligible_rows": 288022,
+          "state_fips": 17
+        },
+        "IN": {
+          "archive": "csv_pin.zip",
+          "sha256": "e35fcc919af76236c8e9ea38aba549a6062ec46337e0ccd10778432bbfe8e965",
+          "members": [
+            "psam_p18.csv"
+          ],
+          "raw_rows": 333546,
+          "eligible_rows": 148088,
+          "state_fips": 18
+        },
+        "KS": {
+          "archive": "csv_pks.zip",
+          "sha256": "cd28597978d2e98998d2916206f63b12d8b6f4126b9bfce3caeea9685bf14223",
+          "members": [
+            "psam_p20.csv"
+          ],
+          "raw_rows": 145107,
+          "eligible_rows": 64658,
+          "state_fips": 20
+        },
+        "KY": {
+          "archive": "csv_pky.zip",
+          "sha256": "753a408cff3e7062cbbc0815652fe17119363b37479923f02d9dc45191766945",
+          "members": [
+            "psam_p21.csv"
+          ],
+          "raw_rows": 225040,
+          "eligible_rows": 91229,
+          "state_fips": 21
+        },
+        "LA": {
+          "archive": "csv_pla.zip",
+          "sha256": "13e14e811ee205ed7a471e826ffa70021f71e183e1d98c5598598bb2f8a12b5d",
+          "members": [
+            "psam_p22.csv"
+          ],
+          "raw_rows": 219011,
+          "eligible_rows": 88078,
+          "state_fips": 22
+        },
+        "MA": {
+          "archive": "csv_pma.zip",
+          "sha256": "77027e492197d2013fc33ee5ae3ec2a94ca622cb90577c3ba8a21fee9a5787b0",
+          "members": [
+            "psam_p25.csv"
+          ],
+          "raw_rows": 346221,
+          "eligible_rows": 166933,
+          "state_fips": 25
+        },
+        "MD": {
+          "archive": "csv_pmd.zip",
+          "sha256": "9f41eb05ab19b17bfb0fdbf969042a30fdab8f46a34179f737f4bda5827ad5cb",
+          "members": [
+            "psam_p24.csv"
+          ],
+          "raw_rows": 296919,
+          "eligible_rows": 141096,
+          "state_fips": 24
+        },
+        "ME": {
+          "archive": "csv_pme.zip",
+          "sha256": "dcea7ade8f631038ec01f2d02ee858ec9f94c3edc8b64e407a210c5789e05b36",
+          "members": [
+            "psam_p23.csv"
+          ],
+          "raw_rows": 64339,
+          "eligible_rows": 27414,
+          "state_fips": 23
+        },
+        "MI": {
+          "archive": "csv_pmi.zip",
+          "sha256": "638417504b1aaf4a39874155f668a6f444071954a98a96b378deeeebf4807da4",
+          "members": [
+            "psam_p26.csv"
+          ],
+          "raw_rows": 493211,
+          "eligible_rows": 208674,
+          "state_fips": 26
+        },
+        "MN": {
+          "archive": "csv_pmn.zip",
+          "sha256": "25bc7eb8e98bfd8e92cc278b9c0d8602c81370a063288683b13552606240a345",
+          "members": [
+            "psam_p27.csv"
+          ],
+          "raw_rows": 274167,
+          "eligible_rows": 130535,
+          "state_fips": 27
+        },
+        "MO": {
+          "archive": "csv_pmo.zip",
+          "sha256": "4abf7c927905b833be00857ed78f04d7f8d76c4ba19c39fbd9f5483b440531ea",
+          "members": [
+            "psam_p29.csv"
+          ],
+          "raw_rows": 309392,
+          "eligible_rows": 132611,
+          "state_fips": 29
+        },
+        "MS": {
+          "archive": "csv_pms.zip",
+          "sha256": "f34d16649ad008897e2115c51b48a52206ae9959c87654ff34222be63f1102d8",
+          "members": [
+            "psam_p28.csv"
+          ],
+          "raw_rows": 146061,
+          "eligible_rows": 54458,
+          "state_fips": 28
+        },
+        "MT": {
+          "archive": "csv_pmt.zip",
+          "sha256": "e726abef3036f8335bbbc9c3b44bf281454182baf116053911de9c2a58a76455",
+          "members": [
+            "psam_p30.csv"
+          ],
+          "raw_rows": 50437,
+          "eligible_rows": 20991,
+          "state_fips": 30
+        },
+        "NC": {
+          "archive": "csv_pnc.zip",
+          "sha256": "2cbc048ebe6192bb93c13095f50d33e26c62f72e41d50ab0fe5e4a371b8c163f",
+          "members": [
+            "psam_p37.csv"
+          ],
+          "raw_rows": 499366,
+          "eligible_rows": 209246,
+          "state_fips": 37
+        },
+        "ND": {
+          "archive": "csv_pnd.zip",
+          "sha256": "51c08c2337a0f6613a3f537e1e16892823c830d52c8f44ac36128af66cc61101",
+          "members": [
+            "psam_p38.csv"
+          ],
+          "raw_rows": 39126,
+          "eligible_rows": 17713,
+          "state_fips": 38
+        },
+        "NE": {
+          "archive": "csv_pne.zip",
+          "sha256": "7fc8f19feecd347eb24efa5768dca1f1d3eff945b1314916e46be58f6831a7da",
+          "members": [
+            "psam_p31.csv"
+          ],
+          "raw_rows": 96283,
+          "eligible_rows": 45262,
+          "state_fips": 31
+        },
+        "NH": {
+          "archive": "csv_pnh.zip",
+          "sha256": "fb17932571a44a068a1a53c591a8f7febddf93de6154cc9e538487c8357689b3",
+          "members": [
+            "psam_p33.csv"
+          ],
+          "raw_rows": 67720,
+          "eligible_rows": 33312,
+          "state_fips": 33
+        },
+        "NJ": {
+          "archive": "csv_pnj.zip",
+          "sha256": "5f17ded512e080f028494c3fcc99dc3a95758c1c4c7015df3693a4a7082f3cd8",
+          "members": [
+            "psam_p34.csv"
+          ],
+          "raw_rows": 439946,
+          "eligible_rows": 205188,
+          "state_fips": 34
+        },
+        "NM": {
+          "archive": "csv_pnm.zip",
+          "sha256": "4d6450bc772134f83a3fc7d6c6240459290d73b7eb4f23a5b6cce0722466d528",
+          "members": [
+            "psam_p35.csv"
+          ],
+          "raw_rows": 95683,
+          "eligible_rows": 35971,
+          "state_fips": 35
+        },
+        "NV": {
+          "archive": "csv_pnv.zip",
+          "sha256": "4c13b96adbaa7f264a60fb3becccffea40d3720b24388b31adb5bcde78865cdb",
+          "members": [
+            "psam_p32.csv"
+          ],
+          "raw_rows": 138425,
+          "eligible_rows": 59807,
+          "state_fips": 32
+        },
+        "NY": {
+          "archive": "csv_pny.zip",
+          "sha256": "0b0c0387026642ea07fe15a9009c7ee5a9bab2866d6e600690ce77543af8b9ea",
+          "members": [
+            "psam_p36.csv"
+          ],
+          "raw_rows": 981674,
+          "eligible_rows": 435163,
+          "state_fips": 36
+        },
+        "OH": {
+          "archive": "csv_poh.zip",
+          "sha256": "b205d5cd1c45ebb25eeb04e61ef5573afd42abdf37ba4587cdecc089d81c56f4",
+          "members": [
+            "psam_p39.csv"
+          ],
+          "raw_rows": 590945,
+          "eligible_rows": 262004,
+          "state_fips": 39
+        },
+        "OK": {
+          "archive": "csv_pok.zip",
+          "sha256": "a1f53278cc25dc08cf21d3b6221077e988132492880489cbe4be42430d15c4a4",
+          "members": [
+            "psam_p40.csv"
+          ],
+          "raw_rows": 186319,
+          "eligible_rows": 73980,
+          "state_fips": 40
+        },
+        "OR": {
+          "archive": "csv_por.zip",
+          "sha256": "de9d4a7ed5cdc0dfe1863e853bd9a4530923114a12c52f875e73998f00fae116",
+          "members": [
+            "psam_p41.csv"
+          ],
+          "raw_rows": 202933,
+          "eligible_rows": 86625,
+          "state_fips": 41
+        },
+        "PA": {
+          "archive": "csv_ppa.zip",
+          "sha256": "23aac9b1a071408602a4311b511322d8ae0f268136a1ff2ef6760dbeef06cc57",
+          "members": [
+            "psam_p42.csv"
+          ],
+          "raw_rows": 639773,
+          "eligible_rows": 285400,
+          "state_fips": 42
+        },
+        "PR": {
+          "archive": "csv_ppr.zip",
+          "sha256": "077416d741b7112c3b4f5e614c5e632a5e173d83bb1698fe69d027ddee4abcca",
+          "members": [
+            "psam_p72.csv"
+          ],
+          "raw_rows": 141586,
+          "eligible_rows": 37028,
+          "state_fips": 72
+        },
+        "RI": {
+          "archive": "csv_pri.zip",
+          "sha256": "a9078d9dd71c576081a45d9f77a72e5adf14d3c690d1d467961d8c5ecd128bb2",
+          "members": [
+            "psam_p44.csv"
+          ],
+          "raw_rows": 52709,
+          "eligible_rows": 24752,
+          "state_fips": 44
+        },
+        "SC": {
+          "archive": "csv_psc.zip",
+          "sha256": "221161191499a7eca3763f683c3583768f707b1222b6d86241170b4bd07facfa",
+          "members": [
+            "psam_p45.csv"
+          ],
+          "raw_rows": 243045,
+          "eligible_rows": 100324,
+          "state_fips": 45
+        },
+        "SD": {
+          "archive": "csv_psd.zip",
+          "sha256": "97326adf022988cc1605671add1762f8efd4b0690c32c93e7b467f256bc39393",
+          "members": [
+            "psam_p46.csv"
+          ],
+          "raw_rows": 43960,
+          "eligible_rows": 19566,
+          "state_fips": 46
+        },
+        "TN": {
+          "archive": "csv_ptn.zip",
+          "sha256": "dbf0866cd04a48fab0245c9201f1d344f9b0b17d0be26141f0a7c818a3ec0546",
+          "members": [
+            "psam_p47.csv"
+          ],
+          "raw_rows": 331385,
+          "eligible_rows": 137258,
+          "state_fips": 47
+        },
+        "TX": {
+          "archive": "csv_ptx.zip",
+          "sha256": "e5a014af691352459272d72183d578af351db5959b9efc25fce3ca9551aec7c0",
+          "members": [
+            "psam_p48.csv"
+          ],
+          "raw_rows": 1309945,
+          "eligible_rows": 554953,
+          "state_fips": 48
+        },
+        "UT": {
+          "archive": "csv_put.zip",
+          "sha256": "48b990db29769a01bfef7eae9f320834c74efaf2be5a89edd836200f21cd9270",
+          "members": [
+            "psam_p49.csv"
+          ],
+          "raw_rows": 150291,
+          "eligible_rows": 66185,
+          "state_fips": 49
+        },
+        "VA": {
+          "archive": "csv_pva.zip",
+          "sha256": "567fa1d69e596da5192bd9528ff6bd17c7d97acd110798b29389bc06764bd850",
+          "members": [
+            "psam_p51.csv"
+          ],
+          "raw_rows": 419588,
+          "eligible_rows": 191294,
+          "state_fips": 51
+        },
+        "VT": {
+          "archive": "csv_pvt.zip",
+          "sha256": "9977c4eaf4b701fe477dab41cc0d0a85949ad4996f86d65b64db3ad150977c83",
+          "members": [
+            "psam_p50.csv"
+          ],
+          "raw_rows": 31883,
+          "eligible_rows": 14853,
+          "state_fips": 50
+        },
+        "WA": {
+          "archive": "csv_pwa.zip",
+          "sha256": "02e2afa1a455b90c1d72e6900ad4407f8d80823afe2d3c2b4bed41d2c2da1081",
+          "members": [
+            "psam_p53.csv"
+          ],
+          "raw_rows": 365707,
+          "eligible_rows": 158797,
+          "state_fips": 53
+        },
+        "WI": {
+          "archive": "csv_pwi.zip",
+          "sha256": "4093b670bfdd9ac5f39c75da2456f86a134f216c899dfab32d277e5ac1c89b7d",
+          "members": [
+            "psam_p55.csv"
+          ],
+          "raw_rows": 294588,
+          "eligible_rows": 137239,
+          "state_fips": 55
+        },
+        "WV": {
+          "archive": "csv_pwv.zip",
+          "sha256": "f63ab137382b30cc7f22e6f93fa40212d5d206056f5fd1667ad0cf223aa2d2a8",
+          "members": [
+            "psam_p54.csv"
+          ],
+          "raw_rows": 90000,
+          "eligible_rows": 34208,
+          "state_fips": 54
+        },
+        "WY": {
+          "archive": "csv_pwy.zip",
+          "sha256": "65d7b8afbd73ee77f881e02ea32468de88e908d4b2e1eadd98c7f9c4be8ca198",
+          "members": [
+            "psam_p56.csv"
+          ],
+          "raw_rows": 29091,
+          "eligible_rows": 12987,
+          "state_fips": 56
+        }
+      }
+    },
+    "identity": "fb567125a68c992713ef6aa70b5ef3938fe8fa0de0e0cb07157d3470d69f82a5",
+    "rows": 6892317,
+    "schema": {
+      "numerical": [
+        "AGEP",
+        "WKHP",
+        "log_wage"
+      ],
+      "categorical": [
+        "ST",
+        "PUMA",
+        "SEX",
+        "RAC1P",
+        "HISP",
+        "SCHL",
+        "POBP",
+        "CIT",
+        "ENG",
+        "OCCP",
+        "INDP",
+        "COW",
+        "MAR",
+        "HICOV",
+        "WKW"
+      ],
+      "target": "log_wage",
+      "task": "regression",
+      "integer": [
+        "AGEP",
+        "WKHP"
+      ]
+    },
+    "files": {
+      "table.parquet": "9f7c5b0fd12ccd25a70eddfce48659a851efd7edc47592e55278360c03a3725d"
+    }
+  },
+  "slice_seed": 0,
+  "reference": {
+    "split_id": "69f67fdce4c7bb154b3007e751e89b347ef6b03a419ab03878e86b0d5438323f",
+    "imputation_id": "44d326b21d14c6e748e38658b762a63b06fad4975055ec9cb9ae7028e14be779",
+    "fill": [
+      43.17375561728061,
+      39.12293856864612,
+      10.391191921082553
+    ],
+    "split_digest": "4a50306ed1769c2f68be55b45c7bf8c05d875fb2ce2088848bc3b387450f29c0"
+  },
+  "runs": {
+    "500": {
+      "split_id": "7556b44b672bbc93374fd87b1b1e577dfa12ad62564eca657e8ff8167cf4fea4",
+      "imputation_id": "b4b51238d21cf6a22b4cb82522535e261613b3996b9f5fdf281ceb4483b5d88f",
+      "fill": [
+        43.18094312485893,
+        39.1225990601127,
+        10.391789061823165
+      ],
+      "split_digest": "60998de71cd6600928f8386fc93cfee98f560e730460b89813a70692e85205b8"
+    },
+    "501": {
+      "split_id": "b56aabb1e7fb4e83152c879ff448bf165766c5ca8970a08741d147b372541f0f",
+      "imputation_id": "6e63626eaa6d157933255229c38d52a8b7f4a5007db6441ebdc151710d2ea441",
+      "fill": [
+        43.18636095975207,
+        39.12224338450626,
+        10.391806447475627
+      ],
+      "split_digest": "ece4943687b79cb124806fef919ef3a8a23bce271c6e02b130a03572a3b2d84e"
+    },
+    "502": {
+      "split_id": "7e131ebc22295b6bf9e347c4f55efcaf9524e30ef5ef9fcd245dc125ea922a78",
+      "imputation_id": "1ae041df5c0c9cdf928d6330381c9137336e81ac673e3b91df129f4d1142154a",
+      "fill": [
+        43.17433929007066,
+        39.12095167682602,
+        10.391439577557813
+      ],
+      "split_digest": "f1317cde6f19a37c9a8c8177acca30012b078091a9cdc859575890f26b08d58b"
+    }
+  },
+  "task": "arbit_num",
+  "status": "complete",
+  "proposals": 6,
+  "proposed_depths": {
+    "1": 6
+  },
+  "accepted_depths": {
+    "1": 6
+  },
+  "unique_proposals": 6,
+  "accepted": 6,
+  "counts": {
+    ">3%": 6,
+    "(1%,3%]": 0,
+    "(0.3%,1%]": 0,
+    "(0.1%,0.3%]": 0,
+    "(0,0.1%]": 0
+  },
+  "csv_sha256": "3765fc476995c6d72eeb60eccb089d8d4770530454e3b0fbdfb5fb5d1dec2b13",
+  "run_counts_sha256": "da45bfbe962f33fe659b4ca48e0196369bc09d08fbad72154a4338b5121fb0f6",
+  "constants": {
+    "quota": 10,
+    "proposal_budget": 200000,
+    "min_test": 100,
+    "pilot_size": 100000,
+    "pilot_min_hits": 3,
+    "pilot_factors": [
+      0.65,
+      1.0,
+      1.5
+    ],
+    "max_depth": 4,
+    "range_width": [
+      0.002,
+      0.8
+    ],
+    "linear_width": [
+      0.02,
+      1.0
+    ],
+    "linear_grid": 0.0001
+  }
+}

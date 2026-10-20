@@ -1,0 +1,18 @@
+{
+  "source_repository": "associated DiffLTM research implementation",
+  "fixtures": {
+    "metric_reference.json": "f0c434ec27c3cdbd5b343918428323d57589fd41561bb6c2228086aa83ab12c0",
+    "denoiser_reference.pt": "c61891fbec2e5972bf2d778fa83366e94a86d18690fe4adc5592286f92701876",
+    "metric_reference.csv": "539489b42e651d90ed04b40f68dd04bda52d7b0bf9731364d9d681ce1803d180"
+  },
+  "denoiser": {
+    "description": "Original forward results and corresponding parameters for plain/AdaLN, conditional/unconditional; 5 rows, 2 numeric coordinates, categorical widths 4 and 3. New module parameter names mapped before saving. Inputs, weights, and expected outputs are self-contained.",
+    "absolute_tolerance": 2e-06,
+    "relative_tolerance": 2e-06
+  },
+  "metrics": {
+    "description": "Original publication bootstrap: fit preprocessing on real training rows only; 10 rounds of independently initialized same-seed real/synthetic subsampling. CSV rows [0,120) real train, [120,180) test, [180,end) synthetic. Numerical x/y, categorical cat, regression target y. Seed 33; XGB 100 trees/depth10/lr0.1/seed42. DCR uses original privacy implementation on same tables.",
+    "mle_absolute_tolerance": 1e-08,
+    "dcr_absolute_tolerance": 1e-06
+  }
+}

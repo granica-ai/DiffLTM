@@ -1,0 +1,9 @@
+# @package _global_
+model:
+  backbone: mlp
+  conditional: true
+  linear: true
+  ranges: true
+training:
+  epochs: 2000
+  val_every: 10

@@ -1,0 +1,18 @@
+run_dir: ???
+output_dir: null
+cache: ${oc.env:DIFFLTM_DATA,data}
+device: cpu
+task: unconditional
+method: unconditional
+slices: null
+family: null
+guidance: 1.0
+harpoon_eta: 0.2
+pin: true
+n: 1000
+condition: null
+hydra:
+  run:
+    dir: ${run_dir}/evaluate-hydra
+  job:
+    chdir: false

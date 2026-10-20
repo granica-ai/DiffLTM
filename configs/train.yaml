@@ -1,0 +1,27 @@
+defaults:
+  - dataset: adult
+  - model: learnt_ce
+  - _self_
+  - experiment: unconditional
+seed: 500
+device: cpu
+cache: ${oc.env:DIFFLTM_DATA,data}
+output_dir: outputs/${dataset.name}/${experiment_name}/${seed}
+experiment_name: ${hydra:runtime.choices.experiment}_${hydra:runtime.choices.model}
+training:
+  epochs: 2000
+  batch_size: 8192
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  ema_decay: 0.997
+  val_every: 10
+  grad_clip: 1.0
+  amp: true
+  periodic_every: 250
+  periodic_mle: true
+  save_every: 250
+hydra:
+  run:
+    dir: ${output_dir}/hydra
+  job:
+    chdir: false
